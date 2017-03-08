@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         //创建okHttpClient对象
         OkHttpClient mOkHttpClient = new OkHttpClient();
         //创建一个Request
+
         final Request request = new Request.Builder()
                 .url("http://mock.eoapi.cn/success/4q69ckcRaBdxhdHySqp2Mnxdju5Z8Yr4")
                 .build();
